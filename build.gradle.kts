@@ -24,11 +24,11 @@ bukkitPluginYaml {
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven ("https://jitpack.io")
     maven ("https://repo.papermc.io/repository/maven-public/")
     maven ("https://oss.sonatype.org/content/groups/public/")
     maven ("https://repo.mattstudios.me/artifactory/public/") // TriumphGui
-    maven ("https://raw.githubusercontent.com/TheBlackEntity/PlugMan/repository/") // PlugMan
 }
 
 dependencies {
